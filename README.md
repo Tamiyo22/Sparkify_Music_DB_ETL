@@ -7,7 +7,7 @@ Their analytics team would like me to create a Postgres database with tables des
 ## Schema
 Since the analysts would like simple queries, and our data may have mutiple copies of the same song data, a Star Schema is perfect for the job since it allows for denormalized data modeling, fast aggregations, and works with simplified user queries. This Star Schema consists of songplays as our one fact table, and time, users, songs, and artists as our dimension tables. 
 
-  ![Sparkify DB](assets/SparkifyStarDB.jpeg "Star Schema")
+  ![SparkifyStarDB ](https://user-images.githubusercontent.com/30645979/148138830-b2745514-5ecc-45aa-af4e-2c9547a1a69d.jpeg)
 
 
 
